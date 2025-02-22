@@ -1,5 +1,53 @@
 #birinci
-   .box1
-        width: 200px
-        height: 200px
-        background-color: #fff 
+   .bigbox
+      display: flex
+      justify-content: space-around
+      .box1
+         display: flex
+         justify-content: center
+         align-items: center
+         width: 200px
+         height: 200px
+         background-color: #6c6cf5
+         color: #ffff
+         margin: 30px
+         .minibox
+            width: 50px
+            height: 50px
+            display: flex
+            justify-content: center
+            align-items: center
+            background-color:#21214b
+            transition: 2s
+            &:hover
+               width: 150px
+               height: 150px
+   .boxbtn
+      display: flex
+      justify-content: space-around
+      .btn
+         width: 100px
+         height: 50px
+         border: 2px solid #ba21d8
+         background-color: #ba21d8
+         margin: 40px
+         color: #ffff
+         h2
+            &:hover
+               cursor: pointer
+         &:hover
+            background-color: #570a66
+            cursor: pointer
+   .box3
+      display: flex
+      justify-content: space-around
+      .mbox
+         width: 190px
+         height: 190px
+         border-radius: 50%
+         background-color: #e0af27
+         padding: 85px
+         color: #ffff
+         transition: 3s
+         &:hover
+            border-radius: 5px
