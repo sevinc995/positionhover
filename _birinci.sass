@@ -1,45 +1,84 @@
 #birinci
-      .box1
-         width: 200px
-         height: 200px
-         background-color: #6c6cf5
-         color: #ffff
-         margin: 30px
-         .minibox
-            width: 50px
-            height: 50px
-            display: flex
-            justify-content: center
-            align-items: center
-            background-color:#21214b
-            transition: 2s
-            &:hover
-               width: 150px
-               height: 150px
-      .btn
-         width: 100px
-         height: 50px
-         border: 2px solid #ba21d8
-         background-color: #ba21d8
-         margin: 40px
-         color: #ffff
-         h2
-            &:hover
-               cursor: pointer
+   .box1
+      color: #ffff
+      margin: 30px
+      .minibox
+         background-color: #21214b
+         transition: 2s
+         margin: auto
          &:hover
-            background-color: #570a66
+            width: 150px
+            height: 150px
+   .btn
+      display: inline-block
+      color: #ffff
+      h2
+         &:hover
             cursor: pointer
-      .mbox
+      &:hover
+         background-color: #570a66
+         cursor: pointer
+   .mbox
+      color: #ffff
+      transition: 3s
+      &:hover
+         border-radius: 5px
 
-         border-radius: 50%
-         background-color: #e0af27
-         padding: 85px
-         color: #ffff
-         transition: 3s
-         &:hover
-            border-radius: 5px
+.box1
+   // width: 200px
+   // height: 200px
+   background-color: #6c6cf5
+   padding: auto
+   display: inline-block
+.minibox
+   // width: 50px
+   // height: 50px
+.btn
+   // width: 100px
+   // height: 50px
+   border: 2px solid #ba21d8
+   background-color: #ba21d8
+   margin: 40px
+.mbox
+   background-color: #e0af27
+   padding: 85px
+   display: inline-block
+   border-radius: 50%
 
-
-
-
-   
+@media (min-width: 500px)
+   .box1
+      width: 100px
+      height: 100px
+      background-color: #6c6cf5
+      margin: 5px
+.minibox
+   width: 50px
+   height: 50px
+.btn
+   width: 100px
+   height: 50px
+   border: 2px solid #ba21d8
+   background-color: #ba21d8
+   display: flex
+   flex-direction: column
+.mbox
+   background-color: #e0af27
+   padding: 85px
+@media (min-width: 800px)
+   .box1
+      width: 200px
+      height: 200px
+      background-color: #6c6cf5
+      margin: 5px
+.minibox
+   width: 50px
+   height: 50px
+.btn
+   width: 100px
+   height: 50px
+   border: 2px solid #ba21d8
+   background-color: #ba21d8
+   display: inline-block
+.mbox
+   background-color: #e0af27
+   padding: 85px
