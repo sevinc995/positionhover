@@ -4,80 +4,104 @@ body {
   padding: 50px;
 }
 
-#birinci .bigbox {
-  display: flex;
-  justify-content: space-around;
-}
-#birinci .bigbox .box1 {
-  width: 200px;
-  height: 200px;
-  background-color: #41407e;
+#birinci .box1 {
   border: 2px solid #20204e;
   color: white;
-  margin: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
-#birinci .bigbox .box1 .minibox {
-  width: 50px;
-  height: 50px;
+#birinci .box1 .minibox {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: #2c2c68;
   transition: 2s;
   margin: auto;
 }
-#birinci .bigbox .box1 .minibox h1 {
+#birinci .box1 .minibox h1 {
   font-weigth: 700;
 }
-#birinci .bigbox .box1 .minibox:hover {
+#birinci .box1 .minibox:hover {
   width: 150px;
   height: 150px;
 }
-#birinci .bigbtn {
-  display: flex;
-  justify-content: space-around;
-}
-#birinci .bigbtn .btn {
-  background-color: #650b77;
-  border: 3px solid #650b77;
-  width: 150px;
-  height: 75px;
+#birinci .btn {
+  background-color: #2a0b44;
+  width: 50px;
+  height: 40px;
   color: white;
   margin: 50px;
+  border-radius: 5px;
 }
-#birinci .bigbtn .btn h1 {
+#birinci .btn h1 {
   font-weigth: 700;
 }
-#birinci .bigbtn .btn h1:hover {
+#birinci .btn h1:hover {
   cursor: pointer;
 }
-#birinci .bigbtn .btn:hover {
+#birinci .btn:hover {
   background-color: #3f054b;
   cursor: pointer;
 }
-#birinci .bigmbox {
-  display: flex;
-  justify-content: space-around;
-}
-#birinci .bigmbox .mbox {
+#birinci .mbox {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #664f04;
   border-radius: 50%;
-  width: 190px;
-  height: 190px;
   color: white;
   transition: 3s;
 }
-#birinci .bigmbox .mbox h1 {
+#birinci .mbox h1 {
   font-weigth: 700;
 }
-#birinci .bigmbox .mbox:hover {
+#birinci .mbox:hover {
   border-radius: 5px;
+}
+
+@media (min-width: 500px) {
+  #birinci .box1 {
+    min-width: 200px;
+    min-height: 200px;
+    background-color: #41407e;
+  }
+  #birinci .minibox {
+    width: 50px;
+    height: 50px;
+  }
+  #birinci .btn {
+    background-color: #14456d;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  #birinci .mbox {
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+  }
+}
+@media (min-width: 800px) {
+  #birinci .box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #41407e;
+  }
+  #birinci .minibox {
+    width: 50px;
+    height: 50px;
+  }
+  #birinci .btn {
+    background-color: #650b77;
+    border: 3px solid #650b77;
+    width: 150px;
+    height: 75px;
+  }
+  #birinci .mbox {
+    width: 190px;
+    height: 190px;
+  }
 }
 
 #ikinci {
