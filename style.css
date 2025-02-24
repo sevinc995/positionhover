@@ -1,10 +1,131 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+  padding: 50px;
 }
 
-#birinci .box1 {
+#birinci .bigbox {
+  display: flex;
+  justify-content: space-around;
+}
+#birinci .bigbox .box1 {
   width: 200px;
   height: 200px;
-  background-color: #fff;
+  background-color: #41407e;
+  border: 2px solid #20204e;
+  color: white;
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#birinci .bigbox .box1 .minibox {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2c2c68;
+  transition: 2s;
+  margin: auto;
+}
+#birinci .bigbox .box1 .minibox h1 {
+  font-weigth: 700;
+}
+#birinci .bigbox .box1 .minibox:hover {
+  width: 150px;
+  height: 150px;
+}
+#birinci .bigbtn {
+  display: flex;
+  justify-content: space-around;
+}
+#birinci .bigbtn .btn {
+  background-color: #650b77;
+  border: 3px solid #650b77;
+  width: 150px;
+  height: 75px;
+  color: white;
+  margin: 50px;
+}
+#birinci .bigbtn .btn h1 {
+  font-weigth: 700;
+}
+#birinci .bigbtn .btn h1:hover {
+  cursor: pointer;
+}
+#birinci .bigbtn .btn:hover {
+  background-color: #3f054b;
+  cursor: pointer;
+}
+#birinci .bigmbox {
+  display: flex;
+  justify-content: space-around;
+}
+#birinci .bigmbox .mbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #664f04;
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  color: white;
+  transition: 3s;
+}
+#birinci .bigmbox .mbox h1 {
+  font-weigth: 700;
+}
+#birinci .bigmbox .mbox:hover {
+  border-radius: 5px;
+}
+
+#ikinci {
+  padding: 50px;
+}
+#ikinci .box {
+  position: relative;
+}
+#ikinci .box .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  background-color: #484897;
+  margin: 10px;
+  color: white;
+}
+#ikinci .box .minibox h1 {
+  font-size: 20px;
+}
+#ikinci .box .box5 {
+  position: absolute;
+  bottom: -10px;
+  left: 200px;
+}
+
+#ucuncu {
+  padding: 50px;
+}
+#ucuncu .box {
+  position: relative;
+}
+#ucuncu .box .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  background-color: #489760;
+  margin: 10px;
+  color: white;
+}
+#ucuncu .box .minibox h1 {
+  font-size: 20px;
+}
+#ucuncu .box .box2 {
+  position: absolute;
+  top: 150px;
+  left: 200px;
 }/*# sourceMappingURL=style.css.map */
