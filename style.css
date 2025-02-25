@@ -7,7 +7,7 @@ body {
 #demo .box {
   display: flex;
   justify-content: space-evenly;
-  margin: 30px;
+  margin: 40px;
 }
 #demo .box .bigbox {
   display: flex;
